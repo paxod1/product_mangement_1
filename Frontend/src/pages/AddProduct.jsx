@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { UserTokenRequest } from '../AxiosCreate';
-import './Adproduct.scss';
+import './AddProduct.scss';
 import { useNavigate } from 'react-router-dom';
 import UserNavbar from './UserNavbar';
 import { useSelector } from 'react-redux';
