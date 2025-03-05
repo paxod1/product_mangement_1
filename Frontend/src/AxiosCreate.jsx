@@ -14,7 +14,7 @@ const getTokenFromLocalStorage = (type) => {
   return loginInfo ? loginInfo.Token : '';
 };
 
-const SampleUrl = 'http://localhost:5000';
+const SampleUrl = 'https://product-mangement-1.onrender.com';
 
 export const basicRequest = axios.create({
   baseURL: SampleUrl,
