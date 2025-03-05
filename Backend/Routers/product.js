@@ -2,12 +2,8 @@ const verifyToken = require('../TokenVerification');
 const router = require('express').Router();
 const Product = require('../models/Products');
 require('dotenv').config();
-const mongoose = require("mongoose");
-const cron = require("node-cron");
-const twilio = require('twilio');
-const client = twilio(process.env.TWILIO_SID, process.env.TWILIO_AUTH_TOKEN);
-console.log("Twilio Client Type:", typeof client);
-console.log("Twilio Config:", process.env.TWILIO_SID, process.env.TWILIO_AUTH_TOKEN, process.env.TWILIO_PHONE);
+
+
 
 
 
